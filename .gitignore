@@ -1,0 +1,16 @@
+# APIキー・環境変数（絶対にコミットしない）
+.env
+*.env
+**/secrets.*
+
+# Open WebUIの個人データ（チャット履歴等）
+open-webui-data/
+*.db
+*.sqlite3
+
+# 作業再開用の個人メモ（公開リポジトリには含めない）
+handoff/
+
+# OS関連
+.DS_Store
+Thumbs.db
